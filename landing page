@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Welcome to My Website</h1>
+            <p>Clean, simple, and responsive landing page using HTML and CSS.</p>
+            <a href="#features" class="btn">Explore More</a>
+        </div>
+    </header>
+
+    <section id="features" class="features">
+        <h2>Features</h2>
+        <div class="feature-boxes">
+            <div class="box">
+                <h3>Fast</h3>
+                <p>Loads quickly and works on all devices.</p>
+            </div>
+            <div class="box">
+                <h3>Responsive</h3>
+                <p>Looks great on desktop, tablet, and mobile.</p>
+            </div>
+            <div class="box">
+                <h3>Simple</h3>
+                <p>Minimal and user-friendly design.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="about">
+        <h2>About Us</h2>
+        <p>This is a beginner-level landing page built to demonstrate the use of HTML5 and CSS3. It includes sections, buttons, and a basic layout.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 My Landing Page. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+#************************************************************************************
+  style.css
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    color: white;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: white;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* Features Section */
+.features {
+    padding: 40px 20px;
+    background: #fff;
+    text-align: center;
+}
+
+.features h2 {
+    margin-bottom: 30px;
+}
+
+.feature-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.box {
+    width: 300px;
+    background-color: #e6f0ff;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* About Section */
+.about {
+    padding: 40px 20px;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
